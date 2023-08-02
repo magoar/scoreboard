@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-color: #1c2945
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.counter {
+    text-align: center
+} 
+
+.counter h3 {
+    font-size: 45px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.counter p {
+    background-color: black;
+    color: red;
+    font-size: 80px;
+    border-radius: 8px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    padding: 8px 25px;
+    margin-bottom: 20px;
+    margin-top: 0px;                                              
+}
+
+.btn {
+    background: none;
+    border: 1px solid #ede9ff;
+    color: #ede9ff;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+}
+
+#reset {
+    width: 100px;
+    margin: 20px;
+    background: none;
+    color: greenyellow;
+    font-weight: 100;
+    border: 1px solid;
+    padding: 5px;
+    border-radius: 5px;
+}
